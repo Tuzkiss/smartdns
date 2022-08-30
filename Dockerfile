@@ -1,6 +1,5 @@
-FROM alpine AS builder
+FROM amd64/alpine AS builder
 
-LABEL maintainer="Ghostry <ghostry.green@gmail.com>"
 
 RUN export URL=https://api.github.com/repos/pymumu/smartdns/releases/latest \
   && export OS="linux" \

@@ -1,2 +1,2 @@
 #!/bin/sh
-docker build -f Dockerfile -t ghostry/smartdns .
+docker build -f Dockerfile -t tuzkis/smartdns .
